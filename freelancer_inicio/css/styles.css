@@ -17,9 +17,34 @@ body {
 .titulo {
     text-align: center;
     font-size: 3.8rem;
-    
 }
 
 .titulo span {
     font-size: 2rem;
+}
+
+.contenedor {
+    width: 80rem;
+    margin: 0 auto;
+}
+.nav-bgo {
+    background-color: var(--secundario);
+}
+
+.navegacion-primaria {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-primaria a {
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navegacion-primaria a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
 }
